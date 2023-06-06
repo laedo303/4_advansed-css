@@ -65,6 +65,7 @@
   background-color: inherit;
   width: 40px;
   height: 40px;
+  cursor: pointer;
 }
 
 .header-menu__logo {
@@ -77,6 +78,7 @@
   background-color: inherit;
   width: 40px;
   height: 40px;
+  cursor: pointer;
 }
 
 .mobile-menu__main {
@@ -141,6 +143,7 @@
   background-color: inherit;
   width: 40px;
   height: 40px;
+  cursor: pointer;
 }
 
 .mobile-menu__footer {
@@ -176,4 +179,17 @@
   display: flex;
   gap: 7px;
   padding-left: 24px;
+}
+
+.lang-menu__link {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: #1B1C21;
+}
+
+.lang-menu__link:hover,
+.lang-menu__link:active {
+  color: #7E7E82;
 }
